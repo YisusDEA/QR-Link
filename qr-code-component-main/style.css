@@ -1,0 +1,94 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+head {
+    display: none;
+}
+
+
+
+.container {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 550;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5%;
+}
+
+main {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    padding-bottom: 10px;
+    border-radius: 5%;
+    max-width: 15rcm;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip ;
+}
+
+.card h1 {
+    padding: 3px;
+    text-align: center;
+    font-weight: 700;
+}
+
+:-webkit-any(article, aside, nav, section) h1 {
+
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.card p {
+    padding: 15px;
+    text-align: center;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
